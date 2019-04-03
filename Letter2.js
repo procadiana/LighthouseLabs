@@ -1,4 +1,3 @@
-Julian [12:23 PM]
 function countLetters (string){
 var output = {};
 var letterIndex = []
