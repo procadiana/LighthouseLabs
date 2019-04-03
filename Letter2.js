@@ -1,5 +1,5 @@
+Julian [12:23 PM]
 function countLetters (string){
-var newLetters = [];
 var output = {};
 var letterIndex = []
 var string = string.toLowerCase();
@@ -7,8 +7,7 @@ for (var i = 0; i < string.length; i++){
   if (string[i] === " "){
 
   }
-  else if (!newLetters.includes(string[i])){
-    newLetters.push(string[i]);
+  else if (!output[string[i]]){
     output[string[i]] = [i];
   } else {
    output[string[i]].push(i);
